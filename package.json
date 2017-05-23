@@ -1,0 +1,23 @@
+{
+  "name": "webpack2-config",
+  "version": "1.0.0",
+  "description": "webpack2 project started",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techfano/webpack2-config.git"
+  },
+  "author": "techfano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techfano/webpack2-config/issues"
+  },
+  "homepage": "https://github.com/techfano/webpack2-config#readme",
+  "devDependencies": {
+    "webpack": "^2.6.0"
+  }
+}
