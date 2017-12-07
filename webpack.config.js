@@ -17,6 +17,10 @@ module.exports = {
           use: ['css-loader','postcss-loader'],
           publicPath: '/dist'
         })
+      },{
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
       }
     ]
   },
