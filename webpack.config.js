@@ -17,6 +17,10 @@ module.exports = {
           use: ['css-loader','sass-loader'],
           publicPath: '/dist'
         })
+      },{
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
       }
     ]
   },
